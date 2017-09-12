@@ -1,6 +1,6 @@
 ﻿namespace ApplicationCore.Interfaces
 {
-    interface IImageService
+    public interface IImageService
     {
         byte[] GetImageBytesById(int id);
     }

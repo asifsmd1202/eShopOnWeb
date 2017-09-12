@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApplicationCore.Entities
 {
-    class BaseEntify
+    public class BaseEntify
     {
         public int Id { get; set; }
     }

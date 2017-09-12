@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApplicationCore.Interfaces
 {
-    interface IUriComposer
+    public interface IUriComposer
     {
         string ComposePicUri(string uriTemplate);
     }

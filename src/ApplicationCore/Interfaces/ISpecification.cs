@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ApplicationCore.Interfaces
 {
-    interface ISpecification<T>
+    public interface ISpecification<T>
     {
         Expression<Func<T, bool>> Critiria { get; }
         List<Expression<Func<T, object>>> Includes { get; }

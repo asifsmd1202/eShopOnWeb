@@ -2,7 +2,7 @@
 
 namespace ApplicationCore.Interfaces
 {
-    interface IIdentityParser<T>
+    public interface IIdentityParser<T>
     {
         T Parse(IPrincipal principal);
     }

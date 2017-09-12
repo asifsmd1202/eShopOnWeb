@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ApplicationCore.Interfaces
 {
-    interface IRepository<T> where T : BaseEntify
+    public interface IRepository<T> where T : BaseEntify
     {
         T GetById(int id);
         List<T> List();

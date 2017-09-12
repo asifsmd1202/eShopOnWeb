@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApplicationCore.Entities
 {
-    class CatalogItem : BaseEntify
+    public class CatalogItem : BaseEntify
     {
         public string Name { get; set; }
         public string Description { get; set; }

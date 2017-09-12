@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApplicationCore.Exceptions
 {
-    class CatalogImageMissingException : Exception
+    public class CatalogImageMissingException : Exception
     {
         public CatalogImageMissingException(string message, Exception innerException = null) 
             : base(message, innerException)

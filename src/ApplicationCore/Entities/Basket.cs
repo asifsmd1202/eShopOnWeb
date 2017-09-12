@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ApplicationCore.Entities
 {
-    class Basket : BaseEntify
+    public class Basket : BaseEntify
     {
         public string BuyerId { get; set; }
         private readonly List<BasketItem> _items = new List<BasketItem>();
